@@ -1,0 +1,1 @@
+/home/brian/Documents/Groceries/platforms/android/app/src/main/assets/app
