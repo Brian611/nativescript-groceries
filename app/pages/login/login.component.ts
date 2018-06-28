@@ -14,6 +14,7 @@ export class LoginComponent {
 
     constructor(private userService: UserService, private router: Router) {
         this.user = new User();
+        this.user.name = "Yes";
         this.user.email = "yes@gmail.com";
         this.user.password = "password";
     }
@@ -26,10 +27,30 @@ export class LoginComponent {
         }
     }
     login() {
-        this.router.navigate(["/list"]);
+        this.userService.login(this.user)
+            .subscribe(
+                (data) => {
+                    if (data.success)
+                        this.router.navigate(["/list"])
+                    else
+                        alert(data.msg);
+                },
+                (error) => console.error(error)
+            );
     }
-    signUp() {
 
+    signUp() {
+        this.userService.register(this.user)
+            .subscribe(
+                (data) => {
+                    if (data.success) {
+                        alert(data.msg);
+                        this.toggleDisplay();
+                    } else
+                        alert(data.msg);
+                },
+                (error) => console.error(error)
+            );
     }
 
     toggleDisplay() {

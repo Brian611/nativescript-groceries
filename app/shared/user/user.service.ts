@@ -15,17 +15,40 @@ export class UserService {
 
     register(user: User) {
 
+        return this.http.post(
+            Config.apiUrl + "users/register", this.passUser(user)
+            ,
+            { headers: this.getCommonHeaders() }
+        )
+            .catch(this.handleErrors);
+    }
+
+
+    login(user: User) {
+        return this.http.post(
+            Config.apiUrl + "users/authenticate",
+            this.passUser(user),
+            { headers: this.getCommonHeaders() }
+        )
+            .catch(this.handleErrors);
     }
 
     getCommonHeaders() {
         let headers = new HttpHeaders();
         headers.append("Content-Type", "application/json");
-        headers.append("Authorization", Config.authHeader);
         return headers;
     }
 
     handleErrors(error: HttpErrorResponse) {
         console.log(JSON.stringify(error.error));
         return Observable.throw(error);
+    }
+
+    passUser(user: User) {
+        return {
+            name: user.name,
+            email: user.email,
+            password: user.password
+        }
     }
 }

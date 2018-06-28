@@ -1,12 +1,12 @@
 StackLayout {
-    margin-left: 30;
-    margin-right: 30;
-    padding-bottom: 15;
+    margin-left: 25;
+    margin-right: 25;
+    /* padding-bottom: 10; */
     background-color: white;
   }
   Image {
     margin-top: 5;
-    margin-bottom: 20;
+    margin-bottom: 10;
   }
   Button, TextField {
     margin-left: 16;
@@ -16,5 +16,5 @@ StackLayout {
   .submit-button {
     background-color: #CB1D00;
     color: white;
-    margin-top: 20;
+
   }
