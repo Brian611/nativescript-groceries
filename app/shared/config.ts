@@ -1,3 +1,3 @@
 export class Config {
-  static apiUrl = "http://openode-api.us.openode.io/";
+  static apiUrl = "http://nativescript.us.openode.io/";
 }

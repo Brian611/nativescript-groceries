@@ -1,1 +1,22 @@
-<Label text="Hello world"></Label>
+<ActionBar title="Products">
+    <ActionItem (tap)="share()" text="Share" android.systemIcon="ic_menu_share_holo_dark" ios.systemIcon="9" ios.position="right">
+    </ActionItem>
+</ActionBar>
+<GridLayout rows="auto,*">
+    <GridLayout row="0" columns="*, auto" class="add-bar">
+        <TextField hint="Enter a product item" #productTextField [(ngModel)]="product" (returnPress)="addProduct()" col="0">
+        </TextField>
+        <Image src="res://add" (tap)="addProduct()" col="1"></Image>
+    </GridLayout>
+
+    <ListView [items]="productList" row="1" class="small-spacing" [class.visible]="listLoaded">
+        <ng-template let-item="item">
+            <GridLayout columns="*,auto">
+                <Label [text]="item.desc" col="0" class="medium-spacing" [class.visible]="productAdded"></Label>
+                <Image src="res://delete" col="1" width="15" height="15" class="action" (tap)="deleteProduct(item)"></Image>
+            </GridLayout>
+        </ng-template>
+    </ListView>
+    <ActivityIndicator [busy]="isLoading" [visibility]="isLoading ? 'visible' : 'collapse'" row="1" horizontalAlignment="center"
+        verticalAlignment="center"></ActivityIndicator>
+</GridLayout>

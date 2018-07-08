@@ -1,48 +1,31 @@
 import { Injectable } from "@angular/core";
-import { HttpClient, HttpHeaders, HttpErrorResponse } from "@angular/common/http";
-import { Observable } from "rxjs/Observable";
-import "rxjs/add/operator/catch";
-import "rxjs/add/operator/do";
-import "rxjs/add/operator/map";
-import 'rxjs/add/observable/throw';
+import { HttpClient } from "@angular/common/http";
 
 import { User } from "./user";
 import { Config } from "../config";
+import { getCommonHeaders } from "../../utils/helpers";
 
 @Injectable()
 export class UserService {
     constructor(private http: HttpClient) { }
 
-    register(user: User) {
-
-        return this.http.post(
-            Config.apiUrl + "users/register", this.passUser(user)
-            ,
-            { headers: this.getCommonHeaders() }
-        )
-            .catch(this.handleErrors);
+    async register(user: User): Promise<User> {
+        return await this.http.post<User>(
+            Config.apiUrl + "users/register",
+            this.passUser(user),
+            { headers: getCommonHeaders() }
+        ).toPromise();
     }
 
 
-    login(user: User) {
-        return this.http.post(
+    async login(user: User): Promise<User> {
+        return await this.http.post<User>(
             Config.apiUrl + "users/authenticate",
             this.passUser(user),
-            { headers: this.getCommonHeaders() }
-        )
-            .catch(this.handleErrors);
+            { headers: getCommonHeaders() }
+        ).toPromise();
     }
 
-    getCommonHeaders() {
-        let headers = new HttpHeaders();
-        headers.append("Content-Type", "application/json");
-        return headers;
-    }
-
-    handleErrors(error: HttpErrorResponse) {
-        console.log(JSON.stringify(error.error));
-        return Observable.throw(error);
-    }
 
     passUser(user: User) {
         return {

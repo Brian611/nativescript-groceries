@@ -15,4 +15,3 @@
 /home/brian/Documents/Groceries/platforms/android/app/build/exploded-dependencies/14/classes.jar
 /home/brian/Documents/Groceries/platforms/android/app/build/exploded-dependencies/3/classes.jar
 /home/brian/Documents/Groceries/platforms/android/app/build/exploded-dependencies/11/classes.jar
-/home/brian/Documents/Groceries/platforms/android/app/build/intermediates/classes/debug

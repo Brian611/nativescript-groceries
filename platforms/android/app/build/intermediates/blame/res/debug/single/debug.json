@@ -1604,6 +1604,10 @@
         "source": "/home/brian/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-alpha1.aar/6dbd18dad52376df32531792cd5230f0/res/drawable-xhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png"
     },
     {
+        "merged": "/home/brian/Documents/Groceries/platforms/android/app/build/intermediates/res/merged/debug/xml_provider_paths.xml.flat",
+        "source": "/home/brian/.gradle/caches/transforms-1/files-1.1/nativescript_social_share.aar/8ae852347633019875971a32b17d2af0/res/xml/provider_paths.xml"
+    },
+    {
         "merged": "/home/brian/Documents/Groceries/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
         "source": "/home/brian/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-alpha1.aar/6dbd18dad52376df32531792cd5230f0/res/drawable-xhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png"
     },

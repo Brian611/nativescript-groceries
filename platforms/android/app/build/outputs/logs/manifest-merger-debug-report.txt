@@ -10,6 +10,7 @@ MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/brian/.gradle
 MERGED from [com.android.support:transition:26.0.0-alpha1] /home/brian/.gradle/caches/transforms-1/files-1.1/transition-26.0.0-alpha1.aar/1ffe43d117652e67408eb985de5ee381/AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/brian/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.0-alpha1.aar/c719211030aacf2e66a06835a272b3ee/AndroidManifest.xml:17:1-31:12
 MERGED from [:nativescript-optimized-with-inspector:] /home/brian/.gradle/caches/transforms-1/files-1.1/nativescript-optimized-with-inspector.aar/0240748bf1aa3cdb7423492342863076/AndroidManifest.xml:2:1-11:12
+MERGED from [:nativescript_social_share:] /home/brian/.gradle/caches/transforms-1/files-1.1/nativescript_social_share.aar/8ae852347633019875971a32b17d2af0/AndroidManifest.xml:2:1-21:12
 MERGED from [:widgets-release:] /home/brian/.gradle/caches/transforms-1/files-1.1/widgets-release.aar/5515d5c443947dd0527ebfd3f3282089/AndroidManifest.xml:2:1-14:12
 MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] /home/brian/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.0-alpha1.aar/8f8b635cf08707067ea49067d5dd2203/AndroidManifest.xml:17:1-26:12
 MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /home/brian/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.0-alpha1.aar/26d5a1598c0ba0955efb81cbd1e510ac/AndroidManifest.xml:17:1-31:12
@@ -62,6 +63,8 @@ MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/brian/.gradle/c
 MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/brian/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.0-alpha1.aar/c719211030aacf2e66a06835a272b3ee/AndroidManifest.xml:21:5-23:54
 MERGED from [:nativescript-optimized-with-inspector:] /home/brian/.gradle/caches/transforms-1/files-1.1/nativescript-optimized-with-inspector.aar/0240748bf1aa3cdb7423492342863076/AndroidManifest.xml:7:5-9:41
 MERGED from [:nativescript-optimized-with-inspector:] /home/brian/.gradle/caches/transforms-1/files-1.1/nativescript-optimized-with-inspector.aar/0240748bf1aa3cdb7423492342863076/AndroidManifest.xml:7:5-9:41
+MERGED from [:nativescript_social_share:] /home/brian/.gradle/caches/transforms-1/files-1.1/nativescript_social_share.aar/8ae852347633019875971a32b17d2af0/AndroidManifest.xml:7:5-47
+MERGED from [:nativescript_social_share:] /home/brian/.gradle/caches/transforms-1/files-1.1/nativescript_social_share.aar/8ae852347633019875971a32b17d2af0/AndroidManifest.xml:7:5-47
 MERGED from [:widgets-release:] /home/brian/.gradle/caches/transforms-1/files-1.1/widgets-release.aar/5515d5c443947dd0527ebfd3f3282089/AndroidManifest.xml:7:5-9:41
 MERGED from [:widgets-release:] /home/brian/.gradle/caches/transforms-1/files-1.1/widgets-release.aar/5515d5c443947dd0527ebfd3f3282089/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] /home/brian/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.0-alpha1.aar/8f8b635cf08707067ea49067d5dd2203/AndroidManifest.xml:20:5-44
@@ -91,6 +94,7 @@ INJECTED from /home/brian/Documents/Groceries/platforms/android/app/src/main/And
 	android:minSdkVersion
 		ADDED from /home/brian/Documents/Groceries/platforms/android/app/src/main/AndroidManifest.xml:14:3-29
 		INJECTED from /home/brian/Documents/Groceries/platforms/android/app/src/main/AndroidManifest.xml
+		MERGED from /home/brian/Documents/Groceries/platforms/android/app/src/main/AndroidManifest.xml:14:3-29
 		INJECTED from /home/brian/Documents/Groceries/platforms/android/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
 ADDED from /home/brian/Documents/Groceries/platforms/android/app/src/main/AndroidManifest.xml:17:2-76
@@ -114,6 +118,8 @@ MERGED from [com.android.support:transition:26.0.0-alpha1] /home/brian/.gradle/c
 MERGED from [com.android.support:transition:26.0.0-alpha1] /home/brian/.gradle/caches/transforms-1/files-1.1/transition-26.0.0-alpha1.aar/1ffe43d117652e67408eb985de5ee381/AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/brian/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.0-alpha1.aar/c719211030aacf2e66a06835a272b3ee/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/brian/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.0-alpha1.aar/c719211030aacf2e66a06835a272b3ee/AndroidManifest.xml:29:5-20
+MERGED from [:nativescript_social_share:] /home/brian/.gradle/caches/transforms-1/files-1.1/nativescript_social_share.aar/8ae852347633019875971a32b17d2af0/AndroidManifest.xml:9:5-19:19
+MERGED from [:nativescript_social_share:] /home/brian/.gradle/caches/transforms-1/files-1.1/nativescript_social_share.aar/8ae852347633019875971a32b17d2af0/AndroidManifest.xml:9:5-19:19
 MERGED from [:widgets-release:] /home/brian/.gradle/caches/transforms-1/files-1.1/widgets-release.aar/5515d5c443947dd0527ebfd3f3282089/AndroidManifest.xml:11:5-12:19
 MERGED from [:widgets-release:] /home/brian/.gradle/caches/transforms-1/files-1.1/widgets-release.aar/5515d5c443947dd0527ebfd3f3282089/AndroidManifest.xml:11:5-12:19
 MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /home/brian/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.0-alpha1.aar/26d5a1598c0ba0955efb81cbd1e510ac/AndroidManifest.xml:29:5-20
@@ -190,3 +196,19 @@ MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/brian/.grad
 		ADDED from [com.android.support:design:26.0.0-alpha1] /home/brian/.gradle/caches/transforms-1/files-1.1/design-26.0.0-alpha1.aar/be77db2fd13f7988bcff2f56b9013f6f/AndroidManifest.xml:27:9-38
 	android:name
 		ADDED from [com.android.support:design:26.0.0-alpha1] /home/brian/.gradle/caches/transforms-1/files-1.1/design-26.0.0-alpha1.aar/be77db2fd13f7988bcff2f56b9013f6f/AndroidManifest.xml:26:9-47
+provider#android.support.v4.content.FileProvider
+ADDED from [:nativescript_social_share:] /home/brian/.gradle/caches/transforms-1/files-1.1/nativescript_social_share.aar/8ae852347633019875971a32b17d2af0/AndroidManifest.xml:10:9-18:20
+	android:grantUriPermissions
+		ADDED from [:nativescript_social_share:] /home/brian/.gradle/caches/transforms-1/files-1.1/nativescript_social_share.aar/8ae852347633019875971a32b17d2af0/AndroidManifest.xml:14:13-47
+	android:authorities
+		ADDED from [:nativescript_social_share:] /home/brian/.gradle/caches/transforms-1/files-1.1/nativescript_social_share.aar/8ae852347633019875971a32b17d2af0/AndroidManifest.xml:12:13-60
+	android:exported
+		ADDED from [:nativescript_social_share:] /home/brian/.gradle/caches/transforms-1/files-1.1/nativescript_social_share.aar/8ae852347633019875971a32b17d2af0/AndroidManifest.xml:13:13-37
+	android:name
+		ADDED from [:nativescript_social_share:] /home/brian/.gradle/caches/transforms-1/files-1.1/nativescript_social_share.aar/8ae852347633019875971a32b17d2af0/AndroidManifest.xml:11:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:nativescript_social_share:] /home/brian/.gradle/caches/transforms-1/files-1.1/nativescript_social_share.aar/8ae852347633019875971a32b17d2af0/AndroidManifest.xml:15:13-17:58
+	android:resource
+		ADDED from [:nativescript_social_share:] /home/brian/.gradle/caches/transforms-1/files-1.1/nativescript_social_share.aar/8ae852347633019875971a32b17d2af0/AndroidManifest.xml:17:17-55
+	android:name
+		ADDED from [:nativescript_social_share:] /home/brian/.gradle/caches/transforms-1/files-1.1/nativescript_social_share.aar/8ae852347633019875971a32b17d2af0/AndroidManifest.xml:16:17-67

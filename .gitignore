@@ -58,3 +58,5 @@ jspm_packages
 
 build/
 dist/
+platforms/
+.vscode/

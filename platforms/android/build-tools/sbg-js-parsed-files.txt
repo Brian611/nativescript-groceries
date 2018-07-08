@@ -1,8 +1,8 @@
-/home/brian/Documents/Groceries/platforms/android/app/src/main/assets/app/shared/grocery/grocery-list.service.js
-/home/brian/Documents/Groceries/platforms/android/app/src/main/assets/app/shared/grocery/grocery.js
 /home/brian/Documents/Groceries/platforms/android/app/src/main/assets/app/shared/user/user.service.js
 /home/brian/Documents/Groceries/platforms/android/app/src/main/assets/app/shared/user/user.js
 /home/brian/Documents/Groceries/platforms/android/app/src/main/assets/app/shared/config.js
+/home/brian/Documents/Groceries/platforms/android/app/src/main/assets/app/shared/product/product.js
+/home/brian/Documents/Groceries/platforms/android/app/src/main/assets/app/shared/product/product-list.service.js
 /home/brian/Documents/Groceries/platforms/android/app/src/main/assets/app/app.module.js
 /home/brian/Documents/Groceries/platforms/android/app/src/main/assets/app/tns_modules/nativescript-intl/index.js
 /home/brian/Documents/Groceries/platforms/android/app/src/main/assets/app/tns_modules/nativescript-intl/nativescript-intl.js
@@ -73,6 +73,7 @@
 /home/brian/Documents/Groceries/platforms/android/app/src/main/assets/app/tns_modules/nativescript-angular/http/http.module.js
 /home/brian/Documents/Groceries/platforms/android/app/src/main/assets/app/tns_modules/nativescript-angular/http/index.js
 /home/brian/Documents/Groceries/platforms/android/app/src/main/assets/app/tns_modules/nativescript-angular/http/ns-http.js
+/home/brian/Documents/Groceries/platforms/android/app/src/main/assets/app/tns_modules/nativescript-social-share/social-share.js
 /home/brian/Documents/Groceries/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/debugger/devtools-elements.common.js
 /home/brian/Documents/Groceries/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/debugger/debugger.js
 /home/brian/Documents/Groceries/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/debugger/dom-node.js
@@ -229,6 +230,7 @@
 /home/brian/Documents/Groceries/platforms/android/app/src/main/assets/app/main.js
 /home/brian/Documents/Groceries/platforms/android/app/src/main/assets/app/app.component.js
 /home/brian/Documents/Groceries/platforms/android/app/src/main/assets/app/utils/status-bar-util.js
+/home/brian/Documents/Groceries/platforms/android/app/src/main/assets/app/utils/helpers.js
 /home/brian/Documents/Groceries/platforms/android/app/src/main/assets/app/utils/hint-util.js
 /home/brian/Documents/Groceries/platforms/android/app/src/main/assets/app/pages/login/login.component.js
 /home/brian/Documents/Groceries/platforms/android/app/src/main/assets/app/pages/list/list.component.js
